@@ -1,0 +1,957 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    position: relative;
+}
+
+.esaslia {
+    position: fixed;
+    color: white;
+}
+
+.esass {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./cempijpg-1593437237.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.esass:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.sehife2 {
+    color: white;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(2, 2, 21);
+    padding-top: 100px;
+}
+
+.dates {
+    color: rgb(143, 143, 143);
+    font-size: 45px;
+    padding-left: 40%;
+    padding-top: 5px;
+}
+
+.p1 {
+    position: relative;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 40%;
+}
+
+.ul1 {
+    width: 50%;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 27%;
+}
+
+li:hover {
+    color: rgb(255, 213, 0);
+}
+
+
+.esas2 {
+    padding: 40px;
+    position: sticky;
+}
+
+.esash2 {
+    font-weight: 100;
+}
+
+.portfolio {
+    font-weight: 900;
+}
+
+.esas3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 17%;
+    color: white;
+    font-size: 45px;
+}
+
+.sehife2 {
+    color: white;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(2, 2, 21);
+    padding-top: 100px;
+}
+
+.dates {
+    color: rgb(143, 143, 143);
+    font-size: 45px;
+    padding-left: 40%;
+    padding-top: 5px;
+}
+
+.p1 {
+    position: relative;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 40%;
+}
+
+.ul1 {
+    width: 50%;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 27%;
+}
+
+li:hover {
+    color: rgb(255, 213, 0);
+}
+
+.main {
+    background-color: rgb(2, 2, 21);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainimg {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.date {
+    color: darkgoldenrod;
+    font-size: 15px;
+}
+
+.mainl1 {
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(2, 2, 21);
+}
+
+.matchs {
+    color: white;
+    font-size: 30px;
+    padding-left: 45%;
+    padding-bottom: 100px;
+}
+
+.matchs1 {
+    font-weight: 900;
+}
+
+.futboldate {
+    font-size: 20px;
+}
+
+.futbol1 {
+    width: 40%;
+    height: 30vh;
+    background-color: rgb(20, 20, 191);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+.futbols1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.futbol1:before {
+    content: "";
+    color: white;
+}
+
+.futbol1h3 {
+    color: darkgoldenrod;
+}
+
+.futbol1p1,
+.futbol1p11,
+.futbol1p11-2,
+.futbol1p11-3 {
+    color: slategrey;
+}
+
+.futbol1p11 {
+    padding-top: 80px;
+}
+
+.futbol1p11-2 {
+    padding-top: 55px;
+}
+
+.futbol1p11-3 {
+    padding-top: 10px;
+}
+
+.liqamain {
+    background-color: rgb(2, 2, 21);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.melumat1 {
+    font-size: 15px;
+    color: slategrey;
+    width: 80%;
+    height: 80%;
+}
+
+.liqaimg {
+    display: inline-block;
+    padding: 150px;
+    position: absolute;
+}
+
+.imgstories {
+    width: 85%;
+    height: 85%;
+}
+
+.melumat {
+    padding-top: 165px;
+    padding-left: 60%;
+}
+
+.melumats1 {
+    color: white;
+    font-weight: 100;
+    padding-bottom: 18px;
+}
+
+.uefa {
+    font-weight: 900;
+}
+
+.hireme {
+    display: flex;
+    padding-top: 20px;
+}
+
+.me {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(20, 20, 191);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pme {
+    color: white;
+}
+
+.cv {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pcv {
+    color: rgb(20, 20, 191);
+}
+
+.mainmesqci {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2 2 21);
+}
+
+.coaches {
+    color: white;
+    font-weight: 100;
+    padding-left: 40%;
+}
+
+.feedback {
+    font-weight: 900;
+}
+
+.mesqci {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.qurbanimg {
+    position: absolute;
+    margin-left: 60px;
+}
+
+.qurbanfikri {
+    font-size: 14px;
+    color: white;
+}
+
+.qurban1 {
+    margin-left: 200px;
+    width: 65%;
+    height: 70%;
+    padding: 30px;
+    border: 2px solid rgb(20, 20, 191);
+    background-color: rgb(20, 20, 191);
+    border-radius: 5px;
+}
+
+.qurban {
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.muradimg {
+    position: absolute;
+    margin-left: 60px;
+}
+
+.muradfikri {
+    font-size: 13px;
+    color: white;
+}
+
+.murad1 {
+    margin-left: 200px;
+    width: 40%;
+    height: 70%;
+    padding: 30px;
+    border: 2px solid rgb(20, 20, 191);
+    background-color: rgb(20, 20, 191);
+    border-radius: 5px;
+}
+
+.murad {
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.qurbanmurad {
+    display: flex;
+    padding-left: 50px;
+}
+
+.elmarimg {
+    position: absolute;
+    margin-left: 110px;
+}
+
+.elmarfikri {
+    font-size: 14px;
+    color: white;
+}
+
+.elmar1 {
+    margin-left: 250px;
+    width: 55%;
+    height: 70%;
+    padding: 30px;
+    border: 2px solid rgb(20, 20, 191);
+    background-color: rgb(20, 20, 191);
+    border-radius: 5px;
+}
+
+.elmar {
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.adrianimg {
+    position: absolute;
+    margin-left: 20px;
+}
+
+.adrianfikri {
+    font-size: 13px;
+    color: white;
+}
+
+.adrian1 {
+    margin-left: 150px;
+    width: 43%;
+    height: 70%;
+    padding: 30px;
+    border: 2px solid rgb(20, 20, 191);
+    background-color: rgb(20, 20, 191);
+    border-radius: 5px;
+}
+
+.adrian {
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.elmaradrian {
+    display: flex;
+}
+
+.ad11 {
+    color: darkgoldenrod;
+    padding-top: 65px;
+}
+
+.ad12 {
+    color: darkgoldenrod;
+    padding-top: 15px;
+}
+
+.ad21 {
+    color: darkgoldenrod;
+    padding-top: 50px;
+}
+
+.ad22 {
+    color: darkgoldenrod;
+    padding-top: 30px;
+}
+
+.bucaqmain {
+    position: absolute;
+    left: 18.6%;
+    background-color: rgb(20, 20, 191);
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(100% 30%, 0 13%, 100% 100%);
+}
+
+.bucaqmain1 {
+    position: absolute;
+    left: 54.2%;
+    background-color: rgb(20, 20, 191);
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(100% 30%, 0 13%, 100% 100%);
+}
+
+.bucaq1main {
+    position: absolute;
+    left: 18.6%;
+    background-color: rgb(20, 20, 191);
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(100% 30%, 0 13%, 100% 100%);
+}
+
+.bucaq2main {
+    position: absolute;
+    left: 54.3%;
+    background-color: rgb(20, 20, 191);
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(100% 30%, 0 13%, 100% 100%);
+}
+
+.sehife6 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 2, 21);
+}
+
+.leagues {
+    padding-left: 43%;
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+    padding-top: 150px;
+}
+
+.league {
+    font-weight: 100;
+}
+
+.nov {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.nov1 {
+    width: 300px;
+    height: 430px;
+    background-color: rgb(20, 20, 191);
+}
+
+.nov2 {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(20, 20, 191);
+}
+
+.kubok1 {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+    margin-left: 100px;
+}
+
+.cups {
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.league-span {
+    font-weight: 300;
+}
+
+.cups1 {
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.more {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fa-solid {
+    font-size: 30px;
+    padding: 25px 8px;
+}
+
+.more1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.more2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.mores1 {
+    color: darkgoldenrod;
+    font-weight: 300;
+    font-size: 15px;
+}
+.cups2 {
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(143, 143, 143);
+    text-align: center;
+}
+
+.sehife7 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 2, 21);
+    position: relative;
+}
+
+.final {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+}
+
+.games {
+    font-weight: 900;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(20, 20, 191);
+    border: 1px solid rgb(2, 2, 21);
+    margin-left: 35px;
+}
+
+.box1:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+.box2:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+.box3:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+.finalcempion {
+    width: 300px;
+    height: 200px;
+}
+
+.boxes {
+    display: flex;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+
+.olke {
+    color: white;
+}
+
+.olke:hover {
+    color: darkgoldenrod;
+}
+
+.olke1 {
+    color: rgb(143, 143, 143);
+    text-align: left;
+    padding-top: 15px;
+}
+
+.olke2 {
+    color: rgb(143, 143, 143);
+    text-align: left;
+    padding-top: 35px;
+}
+
+.date5,
+.dates5 {
+    color: rgb(143, 143, 143);
+}
+
+.date5 {
+    padding-top: 10px;
+}
+
+.dates5 {
+    padding-top: 10px;
+}
+
+.dates51 {
+    color: rgb(143, 143, 143);
+    padding-top: 25px;
+}
+
+.date51 {
+    color: rgb(143, 143, 143);
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.date5:hover {
+    color: darkgoldenrod;
+}
+
+.dates5:hover {
+    color: darkgoldenrod;
+}
+
+.comments2 {
+    color: rgb(143, 143, 143);
+    text-align: left;
+    display: flex;
+    font-size: 12px;
+
+}
+
+.comments1 {
+    text-align: left;
+    display: flex;
+    font-size: 12px;
+}
+
+.comments3 {
+    color: rgb(143, 143, 143);
+    text-align: left;
+    display: flex;
+    font-size: 12px;
+}
+
+.ulkeler {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.date5 {
+    padding-left: 30px;
+}
+
+.sehife8 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 2, 21);
+    position: relative;
+}
+
+.datefinal {
+    font-size: 18px;
+}
+
+.messagefinal {
+    font-size: 18px;
+}
+
+.getintouch {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.get {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    left: 45%;
+    top: 80px;
+}
+
+.Intouch {
+    font-weight: 900;
+}
+
+.inputyour {
+    background-color: rgb(20, 20, 191);
+    border: 1px solid rgb(20, 20, 191);
+    color: rgb(143, 143, 143);
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.inputmessage {
+    background-color: rgb(20, 20, 191);
+    border: 1px solid rgb(20, 20, 191);
+    color: rgb(143, 143, 143);
+    width: 500px;
+    height: 220px;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.inputesas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 17%;
+    padding-left: 19%;
+}
+
+.ADDRESS {
+    color: goldenrod;
+    line-height: 12px;
+}
+
+.addressesas {
+    line-height: 50px;
+}
+
+.address8 {
+    padding-top: 70px;
+}
+
+.esasflex {
+    display: flex;
+}
+
+.esasleft {
+    position: absolute;
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+    top: 155px;
+    left: 57%;
+}
+
+.santh {
+    display: flex;
+    flex-direction: column;
+    line-height: 27px;
+}
+
+.details {
+    color: white;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.sendmessage {
+    width: 150px;
+    height: 42px;
+    background-color: rgb(20, 20, 191);
+    font-size: 12px;
+    border-radius: 25px;
+    position: absolute;
+    top: 94%;
+    left: 293px;
+}
+
+.sendmessage1 {
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    color: white;
+}
+
+.sehifeson {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(2, 2, 21);
+    position: relative;
+}
+
+.sonmetn {
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+}
+
+.colorlib {
+    color: darkgoldenrod;
+}
+
+.sosial {
+    display: flex;
+    padding-left: 35%;
+    padding-top: 240px;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-color: rgb(20, 20, 191);
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-color: rgb(20, 20, 191);
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-color: rgb(20, 20, 191);
+}
+
+.linkedin {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-color: rgb(20, 20, 191);
+}
+
+.vimeo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-color: rgb(20, 20, 191);
+}
+
+.facebookisaresi {
+    color: darkgoldenrod;
+    font-size: 25px;
+    position: absolute;
+    top: 67%;
+    left: 38.2%;
+}
+
+.twitterisaresi {
+    color: darkgoldenrod;
+    font-size: 25px;
+    position: absolute;
+    top: 67%;
+    left: 43.3%;
+}
+
+.instagramisaresi {
+    color: darkgoldenrod;
+    font-size: 25px;
+    position: absolute;
+    top: 67%;
+    left: 48.5%;
+}
+
+.linkedinisaresi {
+    color: darkgoldenrod;
+    font-size: 25px;
+    position: absolute;
+    top: 67%;
+    left: 53.9%;
+}
+
+.vimeoisaresi {
+    color: darkgoldenrod;
+    font-size: 25px;
+    position: absolute;
+    top: 67%;
+    left: 59.1%;
+}
+
+.urek {
+    font-size: 20px;
+    color: red;
+}
